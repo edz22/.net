@@ -17,3 +17,12 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: FortifyOnDemandStatic@3
+  inputs:
+    FortifyProjects: 'https://github.com/edz22/.net'
+    BSIToken: 'eyJ0ZW5hbnRJZCI6MzQ2LCJ0ZW5hbnRDb2RlIjoidGFtX3RlYW1fdGVzdCIsInJlbGVhc2VJZCI6MjA3NjYyLCJwYXlsb2FkVHlwZSI6IkFOQUxZU0lTX1BBWUxPQUQiLCJhc3Nlc3NtZW50VHlwZUlkIjoyNzMsInRlY2hub2xvZ3lUeXBlIjoiSkFWQS9KMkVFIiwidGVjaG5vbG9neVR5cGVJZCI6NywidGVjaG5vbG9neVZlcnNpb24iOiIxLjkiLCJ0ZWNobm9sb2d5VmVyc2lvbklkIjoxNywiYXVkaXRQcmVmZXJlbmNlIjoiTWFudWFsIiwiYXVkaXRQcmVmZXJlbmNlSWQiOjEsImluY2x1ZGVUaGlyZFBhcnR5IjpmYWxzZSwiaW5jbHVkZU9wZW5Tb3VyY2VBbmFseXNpcyI6dHJ1ZSwicG9ydGFsVXJpIjoiaHR0cHM6Ly9hbXMuZm9ydGlmeS5jb20iLCJhcGlVcmkiOiJodHRwczovL2FwaS5hbXMuZm9ydGlmeS5jb20iLCJzY2FuUHJlZmVyZW5jZSI6IlN0YW5kYXJkIiwic2NhblByZWZlcmVuY2VJZCI6MX0='
+    APIAuthenticationType: '1'
+    APIKey: '92ade617-26b7-4ce0-b093-0bd77fd9afa4'
+    APISecret: 'ZzhTbUNKU1N6MHoxWTB0WWV9ME1jWHpnUGtgTC9u0'
+    EntitlementPreference: '2'
+    PurchaseEntitlements: true
